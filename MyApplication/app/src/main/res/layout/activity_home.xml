@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/ddlj"
+        android:scaleType="centerCrop"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:stepSize="0.5"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Watch DDLJ"
+
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ddlj"
+        />
+    
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/jab"
+        android:scaleType="centerCrop"
+
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Watch JTHJ"
+
+        android:layout_marginBottom="10dp"
+       android:id="@+id/jthj"
+        />
+
+</LinearLayout>
+
+</ScrollView>
